@@ -172,7 +172,7 @@ print("El numero total de contagiados después de " + str(d)+ " dias sera " + st
 
 ```pseudocode
 def calcular_promedio(n1:float, n2:float, n3:float, n4:float, n5:float) -> float:
-    promedio = n1 + n2 + n3 + n4 + n5/ 5
+    promedio = (n1 + n2 + n3 + n4 + n5) / 5
     return promedio
 def calcular_mediana(n1:float, n2:float, n3:float, n4:float, n5:float) -> float:
     numeros = [n1, n2, n3, n4, n5]
@@ -229,13 +229,13 @@ print("Los números ordenados de forma descendente son " + str(descendente))
 print("Potencia del mayor número elevado al menor número es " + str(potencia))
 print("Raíz cúbica del menor número es " + str(raiz_cubica))
 ```
-[![punto7.png](https://i.postimg.cc/PrR1HCLy/punto7.png)](https://postimg.cc/1fD8c5rV)
+[![punto7.png](https://i.postimg.cc/brNv2N2v/punto7.png)](https://postimg.cc/gXQpCps9)
 
 8. Para el punto anterior incluir las funciones en un archivo independiente e importarlas para su uso.
 * hice la primera librería con las funciones 
 ```pseudocode
 def calcular_promedio(n1:float, n2:float, n3:float, n4:float, n5:float) -> float:
-    promedio = n1 + n2 + n3 + n4 + n5/ 5
+    promedio = (n1 + n2 + n3 + n4 + n5) / 5
     return promedio
 def calcular_mediana(n1:float, n2:float, n3:float, n4:float, n5:float) -> float:
     numeros = [n1, n2, n3, n4, n5]
